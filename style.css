@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #e0e0e0;
+    background-color: #e6e5e5;
     font-family: 'Inter', sans-serif;
 }
 
@@ -67,7 +67,7 @@ p {
 }
 
 .txt-w {
-    color: #e0e0e0;
+    color: #ececec;
 }
 
 .content-block {
@@ -92,7 +92,7 @@ p {
 
 .txt-w {
     font-weight: 500;
-    color: #e0e0e0;
+    color: #ececec;
     margin-bottom: .3em;
 }
 
@@ -106,7 +106,7 @@ p {
 }
 
 .bd-w {
-    border-bottom: solid .1em #e0e0e0;
+    border-bottom: solid .1em #ececec;
 }
 
 /* Navigation */
@@ -156,7 +156,7 @@ nav {
     padding: 3em;
     z-index: 101;
     background-color: rgba(256, 256, 256, .8);
-    border-bottom: solid .2em #e0e0e0;
+    border-bottom: solid .2em #ececec;
     backdrop-filter: blur(1em);
     border-radius: .5em;
     box-shadow: 0 0 1em 0 #a0a6ba;
@@ -315,7 +315,7 @@ nav {
 
 .primary-link-highlight:hover {
     background-color: #009aff;
-    color: #e0e0e0;
+    color: #ececec;
     transform: translateY(-.2em);
     transition: 100ms ease-in-out;
     box-shadow: 0 .5em .7em 0 #8088a3;
@@ -347,7 +347,7 @@ nav {
 
 .btn-db:hover {
     background-color: #009aff;
-    color: #e0e0e0;
+    color: #ececec;
     border: solid .2em #009aff;
     transform: scale(1.05);
     transition: 100ms ease-in-out;
@@ -355,19 +355,19 @@ nav {
 
 .btn-w {
     text-decoration: none;
-    background-color: #e0e0e0;
+    background-color: #ececec;
     font-weight: 600;
     padding: .5em 1em;
     margin: 1em 0;
     border-radius: 100em;
     color: #000051;
-    border: solid .2em #e0e0e0;
+    border: solid .2em #ececec;
     transition: 100ms ease-in-out;
 }
 
 .btn-w:hover {
     background-color: #009aff;
-    color: #e0e0e0;
+    color: #ececec;
     border: solid .2em #009aff;
     transform: scale(1.05);
     transition: 100ms ease-in-out;
@@ -399,6 +399,7 @@ nav {
     padding: 5em 10em;;
     gap: 5em;
     min-height: 62vh;
+    background-color: #e4e4e4;
 }
 
 .hero-content {
@@ -427,7 +428,7 @@ nav {
     justify-content: space-between;
     padding: 2em;
     background-color: #fff;
-    border-bottom: solid .2em  #e0e0e0;
+    border-bottom: solid .2em  #ececec;
     box-shadow: 0 0 1em 0 #a0a6ba;
 }
 
@@ -753,7 +754,7 @@ nav {
     padding: 0 10em;
     align-items: center;
     gap: 2em;
-    background-color: #e0e0e0;
+    background-color: #ececec;
 }
 
 .bullet-list {
@@ -798,11 +799,11 @@ nav {
 }
 
 .card {
-    background-color: #e0e0e0;
+    background-color: #ececec;
     padding: 2em;
     border-radius: 1em;
     gap: 1em;
-    border-bottom: solid .2em #e0e0e0;
+    border-bottom: solid .2em #ececec;
     transition: 100ms ease-in-out;
 }
 
@@ -821,7 +822,7 @@ nav {
     padding: 5em 10em;
     align-items: center;
     gap: 2em;
-    background-color: #e0e0e0;
+    background-color: #ececec;
 }
 
 .home-asset-grid {
@@ -837,8 +838,8 @@ nav {
     gap: 1em;
     align-items: center;
     text-align: center;
-    background-color: #e0e0e0;
-    border-bottom: solid .2em #e0e0e0;
+    background-color: #ececec;
+    border-bottom: solid .2em #ececec;
     padding: 2em;
     border-radius: 1em;
     transition: 100ms ease-in-out;
@@ -876,11 +877,11 @@ nav {
 }
 
 #home-ai h2 {
-    color: #e0e0e0;
+    color: #ececec;
 }
 
 #home-ai p {
-    color: #e0e0e0;
+    color: #ececec;
 }
 
 /* HOME ORION */
@@ -907,7 +908,7 @@ nav {
 .card-horizontal {
     display: flex;
     align-items: center;
-    background-color: #e0e0e0;
+    background-color: #ececec;
     padding: 2em;
     border-radius: 1em;
     gap: 1em;
@@ -968,7 +969,7 @@ nav {
 }
 
 .col {
-    background-color: #e0e0e0;
+    background-color: #ececec;
     padding: 1em 3em;
     border-radius: 1em;    
 }
@@ -990,9 +991,7 @@ nav {
     padding: 5em 10em;
     align-items: center;
     gap: 2em;
-    background-color: #e0e0e0;
-    background-image: url(images/bg-hero.svg);
-    background-position: right;
+    background-color: #ececec;
     background-size: cover;
 }
 
@@ -1037,7 +1036,7 @@ nav {
     padding: 5em 10em;
     align-items: center;
     gap: 2em;
-    background-color: #e0e0e0;
+    background-color: #ececec;
 }
 
 .home-blog-grid {
@@ -1130,8 +1129,8 @@ nav {
     font-family: "Inter", sans-serif;
     font-weight: 600;
     color: #54596a;
-    background-color: #e0e0e0;
-    border-bottom: solid .2em #e0e0e0;
+    background-color: #ececec;
+    border-bottom: solid .2em #ececec;
 }
 
 .form-field:focus {
@@ -1157,7 +1156,7 @@ footer {
     gap: 5em;
     place-items: center;
     padding: 2em 0;
-    border-bottom: solid .2em #e0e0e0;
+    border-bottom: solid .2em #ececec;
 }
 
 .footer-grid-left {
@@ -1259,7 +1258,7 @@ footer {
     padding: 10em;
     align-items: center;
     gap: 2em;
-    background-color: #e0e0e0;
+    background-color: #ececec;
 }
 
 #service-page-cta {
@@ -1275,11 +1274,11 @@ footer {
 }
 
 #service-page-cta h2 {
-    color: #e0e0e0;
+    color: #ececec;
 }
 
 #service-page-cta .bullet-point {
-    color: #e0e0e0;
+    color: #ececec;
 }
 
 .space-block {
@@ -1326,7 +1325,7 @@ footer {
     gap: 2em;
     padding: 3em;
     border-radius: 1em;
-    background-color: #e0e0e0;
+    background-color: #ececec;
     animation: appear-in ease-in-out;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
@@ -1370,7 +1369,7 @@ footer {
     padding: 5em 10em;
     align-items: center;
     gap: 2em;
-    background-color: #e0e0e0;
+    background-color: #ececec;
 }
 
 .orion-split {
