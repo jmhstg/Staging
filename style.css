@@ -155,11 +155,10 @@ nav {
     gap: 3em;
     padding: 3em;
     z-index: 101;
-    background-color: rgba(256, 256, 256, .8);
-    border-bottom: solid .2em #ececec;
+    background-color: #fff;
+    border-bottom: #fff;
     backdrop-filter: blur(1em);
     border-radius: .5em;
-    box-shadow: 0 0 1em 0 #a0a6ba;
     visibility: hidden;
     opacity: 0;
     transition: 100ms ease-in-out;
@@ -168,8 +167,6 @@ nav {
 .iot-dropdown:hover {
     background-color: #fff;
     border-bottom: solid .2em #009aff;
-    transform: scale(1.05);
-    box-shadow: 0 0 2em 0 #a0a6ba;
     transition: 100ms ease-in-out;
 }
 
@@ -236,10 +233,8 @@ nav {
     z-index: 10;
     top: 200%;
     display: flex;
-    background-color: rgba(256, 256, 256, .8);
-    backdrop-filter: blur(1em);
+    background-color: #fff;
     border-radius: .5em;
-    box-shadow: 0 0 1em 0 #a0a6ba;
     padding: 3em;
     visibility: hidden;
     opacity: 0;
@@ -249,8 +244,6 @@ nav {
 .digitally-transformed-dropdown:hover {
     background-color: #fff;
     border-bottom: solid .2em #009aff;
-    transform: scale(1.05);
-    box-shadow: 0 0 2em 0 #a0a6ba;
     transition: 100ms ease-in-out;
 }
 
@@ -269,10 +262,8 @@ nav {
     z-index: 10;
     top: 200%;
     display: flex;
-    background-color: rgba(256, 256, 256, .8);
-    backdrop-filter: blur(1em);
+    background-color: #fff;
     border-radius: .5em;
-    box-shadow: 0 0 1em 0 #a0a6ba;
     padding: 3em;
     visibility: hidden;
     opacity: 0;
@@ -282,8 +273,6 @@ nav {
 .resources-dropdown:hover {
     background-color: #fff;
     border-bottom: solid .2em #009aff;
-    transform: scale(1.05);
-    box-shadow: 0 0 2em 0 #a0a6ba;
     transition: 100ms ease-in-out;
 }
 
@@ -394,12 +383,21 @@ nav {
     position: relative;
     overflow: hidden;
     display: grid;
-    grid-template-columns: 1fr 1.75fr;
+    grid-template-columns: 1fr 2fr;
     place-items: center;
-    padding: 5em 10em;;
+    padding: 5em 10em;
     gap: 5em;
     min-height: 62vh;
-    background-color: #e4e4e4;
+    background-image: url(images/bg-cta.jpg);
+}
+
+.home-hero h1 {
+    color: #fff;
+}
+
+.home-hero p {
+    max-width: 600px;
+    color: #fff;
 }
 
 .hero-content {
@@ -569,7 +567,7 @@ nav {
     padding: 5em 10em;
     align-items: center;
     gap: 2em;
-    background-image: url(images/bg-cta.jpg);
+    background-image: url(images/bg-gen-1.jpg);
 }
 
 #home-smarter-way h2 {
@@ -1234,6 +1232,14 @@ footer {
     background-image: url(images/bg-utility-metering-solutions.jpg);
     background-position: top;
     background-size: cover;
+}
+
+.service-hero h1 {
+    color: #fff;
+}
+
+.service-hero p {
+    color: #fff;
 }
 
 .service-hero-content {
