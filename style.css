@@ -704,7 +704,7 @@ nav {
     padding: 5em 10em;
     align-items: center;
     gap: 2em;
-    background-color: #fff;
+    background-color: #e0e0e0;
 }
 
 .home-service-grid {
@@ -720,10 +720,10 @@ nav {
     gap: 1em;
     align-items: center;
     text-align: center;
-    background-color: #fff;
+    background-color: #e0e0e0;
     padding: 2em;
     border-radius: 1em;
-    border-bottom: solid .2em #fff;
+    border-bottom: solid .2em #e0e0e0;
     transition: 100ms ease-in-out;
 }
 
