@@ -383,7 +383,7 @@ nav {
     position: relative;
     overflow: hidden;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1.5fr;
     place-items: center;
     padding: 5em 10em;
     gap: 5em;
@@ -393,6 +393,7 @@ nav {
 
 .home-hero h1 {
     color: #fff;
+    font-size: 3em;
 }
 
 .home-hero p {
